@@ -25,9 +25,9 @@ const RootPage = () => {
     <div className="flex flex-col p-8 items-center h-full w-full overflow-y-auto">
 
       {/* Navigation to practice section */}
-      <div className="flex flex-col items-center gap-20 w-full md:w-[80%]">
+      <div className="flex flex-col items-center gap-10 w-full md:w-[80%]">
         <p className=" text-4xl md:text-6xl font-black text-center">What would you like to practice?</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full mb-20">
           {
             PracticeModes.map((mode) => (
               <PracticeCard key={mode.title} title={mode.title} live={mode.live} href={mode.href} />
@@ -37,9 +37,9 @@ const RootPage = () => {
       </div>
 
       {/* Footer */}
-      {/* <div className="flex flex-col items-center justify-center w-full">
-        <p>Built by @mukunda</p>
-      </div> */}
+      <div className="flex flex-col items-center justify-center w-full mt-auto text-xl font-extralight">
+        <p>Built by ムクンダ</p>
+      </div>
 
     </div>
   );

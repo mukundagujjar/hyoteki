@@ -4,9 +4,9 @@ import Confetti from "react-confetti";
 import Link from "next/link";
 
 // Question counts for different types
-const singleQuestionCount = 1; // Single characters
-const shortWordQuestionCount = 1; // 2-3 character words
-const longWordQuestionCount = 1; // 4-5 character words
+const singleQuestionCount = 5; // Single characters
+const shortWordQuestionCount = 5; // 2-3 character words
+const longWordQuestionCount = 5; // 4-5 character words
 
 const Test = ({ characterGrid }) => {
     // Initialize selectedKana with all characters
@@ -237,11 +237,11 @@ const Test = ({ characterGrid }) => {
                                     type="text"
                                     value={currentInput}
                                     onChange={(e) => setCurrentInput(e.target.value)}
-                                    className={`w-full max-w-md mx-auto text-center text-xl p-2 border ${isCorrect === null
+                                    className={`w-full outline-none max-w-md mx-auto text-center text-xl p-2 border ${isCorrect === null
                                             ? "border-gray-300"
                                             : isCorrect
-                                                ? "border-green-500 bg-green-100"
-                                                : "border-red-500 bg-red-100"
+                                                ? "border-green-500"
+                                                : "border-red-500"
                                         }`}
                                     placeholder="Type romaji..."
                                     autoFocus
