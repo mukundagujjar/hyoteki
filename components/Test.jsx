@@ -243,7 +243,7 @@ const Test = ({ characterGrid }) => {
                                                 ? "border-green-500"
                                                 : "border-red-500"
                                         }`}
-                                    placeholder="Type romaji..."
+                                    placeholder="Type the romaji and press enter..."
                                     autoFocus
                                 />
                             </form>
