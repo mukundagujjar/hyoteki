@@ -22,7 +22,7 @@ const RootPage = () => {
 
   return (
     // Main Root Page
-    <div className="flex flex-col p-8 items-center justify-center h-full w-full overflow-y-auto">
+    <div className="flex flex-col p-8 items-center h-full w-full overflow-y-auto">
 
       {/* Navigation to practice section */}
       <div className="flex flex-col items-center gap-10 w-full md:w-[80%]">
