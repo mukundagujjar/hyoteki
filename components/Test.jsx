@@ -187,7 +187,7 @@ const Test = ({ characterGrid }) => {
                         />
                         <label>Select all</label>
                     </div>
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-30">
                         {Object.entries(characterGrid).map(([row, chars]) => {
                             const isSelected = Object.entries(chars).every(([romaji, kana]) =>
                                 selectedKana.has(`${romaji}:${kana}`)
