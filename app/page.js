@@ -25,7 +25,7 @@ const RootPage = () => {
     <div className="flex flex-col p-8 items-center h-full w-full overflow-y-auto">
 
       {/* Navigation to practice section */}
-      <div className="flex flex-col items-center gap-10 w-full md:w-[80%]">
+      <div className="flex flex-col items-center gap-10 w-full md:w-[80%] my-10">
         <p className=" text-4xl md:text-6xl font-black text-center">What would you like to practice?</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full mb-40">
           {
