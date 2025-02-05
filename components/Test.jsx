@@ -237,13 +237,13 @@ const Test = ({ characterGrid }) => {
                                     type="text"
                                     value={currentInput}
                                     onChange={(e) => setCurrentInput(e.target.value)}
-                                    className={`w-full outline-none max-w-md mx-auto text-center text-xl p-2 border ${isCorrect === null
+                                    className={`w-full outline-none max-w-xl mx-auto text-center text-xl p-2 border ${isCorrect === null
                                             ? "border-gray-300"
                                             : isCorrect
                                                 ? "border-green-500"
                                                 : "border-red-500"
                                         }`}
-                                    placeholder="Type the romaji and press enter..."
+                                    placeholder="Type the romaji and hit enter..."
                                     autoFocus
                                 />
                             </form>
