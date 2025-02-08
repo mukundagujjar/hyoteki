@@ -209,7 +209,7 @@ const Test = ({ characterGrid }) => {
                             );
                         })}
                     </div>
-                    <div className="fixed bottom-0 left-0 right-0 p-4 shadow-lg items-center justify-center flex">
+                    <div className="fixed bottom-0 left-0 right-0 p-4 shadow-lg items-center justify-center flex backdrop-filter backdrop-blur-sm">
                         <button
                             className={`w-xs py-4 text-lg ${selectedKana.size === 0
                                     ? "bg-gray-300 text-gray-500 cursor-not-allowed"
