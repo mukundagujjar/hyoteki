@@ -100,13 +100,13 @@ const OptionSelect = ({ data }) => {
 
             {!testStarted ? (
                 <div className="w-full max-w-8xl flex flex-col items-center justify-center ">
-                    <h2 className="text-2xl font-bold mb-20 text-center">
+                    <h2 className="text-lg md:text-2xl font-bold mb-10 text-center">
                         We will test your knowledge regarding the below:
                     </h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 overflow-y-auto mb-30">
                     {
                         Object.entries(data).map(([english, japanese], index) => (
-                            <div key={index} className="mb-4">
+                            <div key={index} className="border p-4 text-center">
                                 <div className="text-sm md:text-lg">{formatEnglishText(english)} &nbsp;-&nbsp; {japanese}</div>
                             </div>
                             ))
