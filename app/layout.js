@@ -1,6 +1,6 @@
-import { Manrope, Inter_Tight, Inter } from "next/font/google";
+import { Inter_Tight } from "next/font/google";
 import "./globals.css";
-
+import { Analytics } from "@vercel/analytics/react"
 
 const interTight = Inter_Tight({
   subsets: ["latin"],
@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${interTight.className} antialiased overflow-hidden h-dvh w-full bg-[#191919] text-[#B7B7B7]`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
