@@ -112,7 +112,7 @@ const OptionSelect = ({ data }) => {
                             ))
                     }
                     </div>
-                    <div className="fixed bottom-0 left-0 right-0 p-4 shadow-lg items-center justify-center flex">
+                    <div className="fixed bottom-0 left-0 right-0 p-4 shadow-lg items-center justify-center flex backdrop-filter backdrop-blur-sm">
                         <button
                             className="w-xs py-4 text-lg bg-blue-500 text-white font-semibold hover:bg-blue-600 cursor-pointer"
                             onClick={generateQuestions}
