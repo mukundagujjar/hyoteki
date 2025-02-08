@@ -1,5 +1,5 @@
 import Test from "@/components/Test";
-import KATAKANA_GRID from "@/utils/katakana";
+import { KATAKANA_GRID } from "@/utils/kana";
 
 const KatakanaPage = () => {
     return (

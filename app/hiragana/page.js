@@ -1,5 +1,5 @@
 import Test from "@/components/Test";
-import HIRAGANA_GRID from "@/utils/hiragana";
+import { HIRAGANA_GRID } from "@/utils/kana";
 
 const HiraganaPage = () => {
   return (
