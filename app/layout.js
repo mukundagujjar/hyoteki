@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${interTight.className} antialiased overflow-hidden h-dvh w-full bg-[#0D1B2A] text-[#E0E1DD]`}>
-        {/* <Navbar /> */}
         {children}
         <Analytics />
       </body>
