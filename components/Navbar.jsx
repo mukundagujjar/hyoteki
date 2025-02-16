@@ -4,22 +4,22 @@ const NavbarRoutes = [
     {
         id: 1,
         title: "Guided coaching",
-        href: "/hirameki"
+        href: "/"
     },
     {
         id: 2,
         title: "About",
-        href: "/about"
+        href: "/"
     },
     {
         id: 3,
         title: "Contact",
-        href: "/contact"
+        href: "/"
     },
     {
         id: 4,
         title: "Legal",
-        href: "/legal"
+        href: "/"
     }
 ]
 
