@@ -44,7 +44,7 @@ const Navbar = () => {
 
     return (
         <div className="relative">
-            <div className="flex justify-between items-center w-full p-6 md:mb-6 select-none">
+            <div className="flex justify-between items-center w-full p-6 select-none">
                 <Link prefetch href="/" className={`${NavbarFont.className} text-[#E0E1DD] text-2xl md:text-6xl`}>Hyoteki</Link>
 
                 <div className="hidden lg:flex gap-18 items-center">
